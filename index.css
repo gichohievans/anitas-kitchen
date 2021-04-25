@@ -1,0 +1,174 @@
+.menu {
+    width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+}
+#box {
+    background-image: url("assets/backgrounds/landing.jpg");
+    height: 636px;
+    width: 1400px;
+    align-content: center;
+
+}
+#box1{
+    text-align:center;
+    font-size:x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+}
+#mainbodybox{
+    margin:auto;
+    margin-top:150px;
+    width:1400px;
+    max-width:100%; 
+    overflow-x: scroll;  
+    background-color:#fff;
+}
+.foodtop{
+    position: relative;
+    box-align:left;
+    color: white;
+    
+    display: block;
+    content: "";
+    clear: both;
+    display: table;
+     margin-left: -10%;
+      margin-right: -10%;
+}
+
+    .colum{ 
+     float: left;
+     width: 25%;
+      padding:0px;
+      position: relative;
+      
+    }
+    .colum .caption {
+      position: absolute;
+      width: 283px;
+      height: 50px;
+      top: 40%;
+      left: 0px;
+      color: #ffffff;
+      text-align:center;
+      font-weight:bold;
+      opacity:0.7;
+    }
+
+    .butt{
+        float: left;
+        display: block;
+    }
+    
+
+#happy{
+    background-color: antiquewhite;
+    width: 350px;
+    height: 105px;
+}
+#party{
+    background-color: orangered;
+    width: 350px;
+    height: 105px;
+}
+    
+ 
+#fastfood {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1400px;
+  }
+  img {
+    max-width: 100%;
+  }
+  .one {
+    flex-basis: 50%;
+    display: block;
+    padding-top: 0%;
+    padding-bottom: 0%;
+  }
+  .two {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  #drinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1400px;
+  }
+  img {
+    max-width: 100%
+  }
+  .drink2 {
+    flex-basis: 50%
+  }
+  .drink1 {
+    font-size: 20px;
+    padding-right: 20px;
+  }
+
+
+.bottomfood {
+    background-image: url("assets/backgrounds/foodsBg.jpg");
+    height: 599px;
+    width: 1400px;
+
+}
+.row{ 
+    float: left;
+    display: inline-flex;
+}
+.customer {
+  content: "";
+  display: table;
+  clear: both;
+}
+.col {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+.marg{
+  width: 280px;
+  height: 220px;
+  margin-right: 10px;
+}
+.menu{
+    background-color: rgb(239, 242, 245);
+    float: center;
+}
+.links{
+  margin-left: 20px;
+  display: inline-flex;
+}
+.menu a{
+    box-align:left
+  }
+
+  footer{
+      background-color:#F15A29;
+      color: white;
+      text-align: center;
+      width: 1400px;
+    }
+  input[type=button] {
+      background-color: #f15a29;
+      color: white;
+      font-size: 16px;
+  }
+.subscribe{
+  background-image:url("assets/backgrounds/subscribe.jpg") ;
+  
+  text-align: center;
+  overflow: hidden;
+  color: white;
+  font-size: 20px;
+  margin-left: -10%;
+  margin-right: -10%;
+  padding: 80px;
+
+}
